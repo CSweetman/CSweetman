@@ -4,11 +4,15 @@ export default {
     theme: {
         extend: {
             colors: {
-                "csweet-dark-font": "#040316",
+                "csweet-dark-font": "#31234a",
                 "csweet-light-font": "#eae9fc",
             },
             gridTemplateColumns: {
                 auto: "repeat(auto-fill, minmax(400px, 1fr))",
+                card: "repeat(auto-fill, minmax(400px, 1fr))",
+            },
+            screens: {
+                xs: "310px",
             },
         },
     },

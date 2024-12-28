@@ -49,8 +49,8 @@ const Badge = (props: BadgeProps) => {
     return (
         <span
             className={`inline-block whitespace-nowrap rounded-full ${nameToColor[props.name.toLowerCase()].bg} ${nameToColor[props.name.toLowerCase()].text} 
-                px-[0.65em] pb-[0.25em] pt-[0.35em] text-center align-baseline text-md font-bold leading-none dark:bg-slate-900 dark:text-primary-500
-                border-[#16262b] border-[1px]`}
+                px-[0.65em] pb-[0.35em] pt-[0.35em] text-center align-baseline text-md font-bold leading-none dark:bg-slate-900 dark:text-primary-500
+                `}
         >
             {props.name}
         </span>

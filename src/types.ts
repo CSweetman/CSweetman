@@ -9,3 +9,6 @@ export type ProjectProps = {
         priority: number
     }[]
 }
+
+
+export type AboutButtonColors = "DARK" | "LIGHT" 

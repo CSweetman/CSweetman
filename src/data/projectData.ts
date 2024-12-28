@@ -1,7 +1,7 @@
 import { ProjectProps } from "../types"
-import img1 from "../assets/project-imgs/1.jpg"
-import img2 from "../assets/project-imgs/2.jpg"
-import img3 from "../assets/project-imgs/3.jpg"
+import minesweeper from "../assets/project-imgs/csweetman-minesweeper.png"
+import neetdraw from "../assets/project-imgs/csweetman-neetdraw-crop.png"
+import amalgam from "../assets/project-imgs/path-to-amalgam.png"
 
 export const projects: ProjectProps[] = [
     {
@@ -9,8 +9,8 @@ export const projects: ProjectProps[] = [
         name: "NeetDraw",
         description: `A gameified daily todo list that gives the user a random amount leetcode problems to do each day. 
             The full list of problems is scraped from Neetcode, hence the name NeetDraw. Inspired by Wordle`,
-        url: "//www.google.com",
-        image: img1,
+        url: "//www.csweetman-neetdraw.com/",
+        image: neetdraw,
         stack: [
             {
                 name: "React",
@@ -33,9 +33,9 @@ export const projects: ProjectProps[] = [
     {
         id: 2,
         name: "Minesweeper",
-        description: `Minesweeper game app built in React.`,
-        url: "//www.google.com",
-        image: img2,
+        description: `Minesweeper app built in React. Built with multiple themes with accessibility in mind. See if you can avoid getting exploded on!`,
+        url: "//www.csweetman-minesweeper.com/",
+        image: minesweeper,
         stack: [
             {
                 name: "React",
@@ -55,8 +55,8 @@ export const projects: ProjectProps[] = [
         id: 3,
         name: "Path to Amalgam",
         description: `A SolidJS game where the player controls an army of units across a 2D grid to fight an opposing CPU army with 50+ weapons and spells. Inspired by Fire Emblem`,
-        url: "//www.google.com",
-        image: img3,
+        url: "",
+        image: amalgam,
         stack: [
             {
                 name: "SolidJS",
