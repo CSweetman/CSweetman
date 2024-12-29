@@ -1,14 +1,14 @@
 import officeImg from "../assets/project-imgs/CSweetman-Office-Image.jpg"
 import AboutButton from "../components/AboutButton"
-import { AboutButtonColors } from "../types"
 
 const AboutPage = () => {
     return (
-        <div className="grid grid-cols-[70%_30%] pt-[8rem] px-10 h-[100%] min-h-[80vh]">
-            <div className="flex flex-col items-center gap-10">
-                <p className="text-3xl text-center w-[80%]  text-[#ffe6ff]">About CSweetman</p>
-                <p className=" text-left w-[70%] text-[#fff8ff]">
-                    Hi,I'm Christopher Sweetman. I'm a full stack web developer with 3 years of experience under my
+        <div className=" flex flex-col justify-center items-center gap-8 pt-[4rem] px-10 h-[100%] min-h-[80vh]">
+            <p className="text-3xl text-center w-[80%]  text-[#ffe6ff]">About CSweetman</p>
+            <img src={officeImg} alt="" width={175} className=" rounded-full" />
+            <div className="flex flex-col sm:w-[90%] md:w-[70%] z-10">
+                <p className=" text-[#fff8ff] sm:text-sm md:text-base">
+                    Hi, I'm Christopher Sweetman. I'm a full stack web developer with 3 years of experience under my
                     belt. I started when I first learned about HTML, CSS, and Javascript but I really fell in love when
                     I first built an React web-app project for a capstone project.
                     <br />
@@ -24,20 +24,15 @@ const AboutPage = () => {
                     updating this portfolio as I add more projects and with more pages over time! I am currently looking
                     for a new developer position, please reach out if you are interested.
                 </p>
-                <div>
-                    <AboutButton
-                        color={"DARK"}
-                        text="LinkedIn"
-                        url="https://www.linkedin.com/in/christopher-sweetman/"
-                    />
-                    <AboutButton
-                        color={"LIGHT"}
-                        text="Github"
-                        url="https://github.com/CSweetman?tab=overview&from=2024-12-01&to=2024-12-27"
-                    />
-                </div>
             </div>
-            <img src={officeImg} alt="" width={200} className=" rounded-full" />
+            <div>
+                <AboutButton color={"DARK"} text="LinkedIn" url="https://www.linkedin.com/in/christopher-sweetman/" />
+                <AboutButton
+                    color={"LIGHT"}
+                    text="Github"
+                    url="https://github.com/CSweetman?tab=overview&from=2024-12-01&to=2024-12-27"
+                />
+            </div>
         </div>
     )
 }
