@@ -1,4 +1,3 @@
-
 type BadgeProps = {
     name: string
     priority: number
@@ -41,6 +40,21 @@ const nameToColor: { [key: string]: Badge } = {
         bg: "bg-[#f89f1b]",
         text: "text-[#4a3008]",
         og: "#f89f1b",
+    },
+    nextjs: {
+        bg: "bg-[#000000]",
+        text: "text-[#ffffff]",
+        og: "#000000",
+    },
+    prisma: {
+        bg: "bg-[#3d5d6f]",
+        text: "text-[#082435]",
+        og: "#0c344b",
+    },
+    postgres: {
+        bg: "bg-[#7095b2]",
+        text: "text-[#244866]",
+        og: "#336791",
     },
 }
 
