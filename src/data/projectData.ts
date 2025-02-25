@@ -1,10 +1,10 @@
-import { ProjectProps } from "../types"
+import { Project } from "../types"
 import minesweeper from "../assets/project-imgs/csweetman-minesweeper.png"
 import neetdraw from "../assets/project-imgs/csweetman-neetdraw-crop.png"
 import amalgam from "../assets/project-imgs/path-to-amalgam.png"
 import inventoryManager from "../assets/project-imgs/csweetman-inventorymanager2.png"
 
-export const projects: ProjectProps[] = [
+export const projects: Project[] = [
     {
         id: 2,
         name: "CSweetman Inventory",
@@ -37,8 +37,8 @@ export const projects: ProjectProps[] = [
     {
         id: 3,
         name: "NeetDraw",
-        description: `A gameified daily todo list that gives the user a random amount leetcode problems to do each day. 
-            The full list of problems is scraped from Neetcode, hence the name NeetDraw. Inspired by Wordle`,
+        description: `A gameified daily todo list that gives random leetcode problems daily. 
+            The full list of problems is scraped from Neetcode. Inspired by Wordle`,
         url: "//www.csweetman-neetdraw.com/",
         image: neetdraw,
         stack: [

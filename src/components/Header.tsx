@@ -1,10 +1,9 @@
-
 import { Link } from "react-router-dom"
 
 const Header = () => {
     return (
         // <div className=" bg-opacity-50 backdrop-blur-xl fixed w-full  text-csweet-dark-font text-xl z-20">
-        <div className=" bg-opacity-50 backdrop-blur-xl fixed w-full  text-[#fff0ff] text-xl z-20">
+        <div className="bg-[#222629] bg-opacity-75 backdrop-blur-xl fixed w-full text-[#fff0ff] text-xl z-20">
             <div className="container mx-auto flex justify-between items-center p-4 text-2xl">
                 <Link to="/" className=" hover:text-[#fff0ffbc] mx-4 hover:font-outline-hover">
                     <p className="text-2xl">CSweetman</p>

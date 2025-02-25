@@ -1,5 +1,10 @@
 export type ProjectProps = {
-    id: number,
+    project: Project
+    idx: number
+}
+
+export type Project = {
+    id: number
     name: string
     description: string
     url: string
@@ -10,5 +15,9 @@ export type ProjectProps = {
     }[]
 }
 
+export type TimelineProps = {
+    year: string
+    title: string
+}
 
-export type AboutButtonColors = "DARK" | "LIGHT" 
+export type AboutButtonColors = "DARK" | "LIGHT"
