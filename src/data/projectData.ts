@@ -7,7 +7,7 @@ import inventoryManager from "../assets/project-imgs/csweetman-inventorymanager2
 export const projects: Project[] = [
     {
         id: 2,
-        name: "CSweetman Inventory",
+        name: "Inventory Manager",
         description: `An ecommerce page that allows users to check their expenses and items on various pages.`,
         url: "//main.d1e8mj59u9yn6g.amplifyapp.com/dashboard/",
         image: inventoryManager,

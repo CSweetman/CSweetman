@@ -1,5 +1,4 @@
 import "./App.css"
-import Header from "./components/Header"
 import AboutPage from "./pages/AboutPage"
 import HomePage from "./pages/HomePage"
 // import cloudleft from "./assets/project-imgs/cloudleft.png"
@@ -11,7 +10,7 @@ export default function App() {
         <>
             <Router>
                 <div className=" min-h-[100vh] z-[-10]">
-                    <Header />
+                    {/* <Header /> */}
                     <Routes>
                         <Route path="/" element={<HomePage />} />
                         <Route path="projects/:id" element={<HomePage />} />

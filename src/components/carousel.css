@@ -31,3 +31,7 @@
 .swiper-slide {
     width: fit-content;
 }
+
+.swiper-pagination {
+    bottom: 200px !important;
+}

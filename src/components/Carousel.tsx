@@ -17,24 +17,23 @@ const Carousel = () => {
     return (
         <Swiper
             // install Swiper modules
-            slidesPerView={2}
-            spaceBetween={0}
-            // breakpoints={{
-            //     1024: {
-            //         slidesPerView: 3,
-            //         spaceBetween: 100,
-            //     },
-            //     640: {
-            //         slidesPerView: 2,
-            //         spaceBetween: 0,
-            //     },
-            // }}
+            // slidesPerView={2}
+            // spaceBetween={0}
+            breakpoints={{
+                800: {
+                    slidesPerView: 1,
+                },
+                960: {
+                    slidesPerView: 2,
+                    spaceBetween: 8,
+                },
+            }}
             modules={[Navigation, Pagination, A11y]}
             navigation
             pagination={{ clickable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
-            className="h-[100%] w-[70%]"
+            className="h-[100%] w-[90%] md:w-[70%]"
         >
             {projects.map((prj, i) => (
                 <SwiperSlide className="w-[10px]" key={i}>
