@@ -4,10 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react"
 
 // import Swiper and modules styles
 
-// import "swiper/css"
-// import "swiper/css/navigation"
-// import "swiper/css/pagination"
-// import "swiper/css/scrollbar"
 import "../components/Carousel.css"
 import ProjectCard from "./ProjectCard"
 import { projects } from "../data/projectData"
