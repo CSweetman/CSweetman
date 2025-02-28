@@ -1,4 +1,3 @@
-import React from "react"
 // core version + navigation, pagination modules:
 import { Navigation, Pagination, A11y } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
